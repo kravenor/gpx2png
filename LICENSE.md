@@ -1,6 +1,6 @@
 # The MIT License (MIT)
 
-Copyright (c) 2020 Alexey Knyazev <alexey.knyaz@gmail.com>
+Copyright (c) 2023 Simone Baldelli <baldelli.simone@gmail.com>
 
 > Permission is hereby granted, free of charge, to any person obtaining a copy
 > of this software and associated documentation files (the "Software"), to deal
