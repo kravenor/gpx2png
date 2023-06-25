@@ -8,7 +8,8 @@ use Gpx2Png\Models\Track;
 use phpGPX\Helpers\GeoHelper;
 use phpGPX\phpGPX;
 
-class File implements SourceInterface{
+class File implements SourceInterface
+{
     private $filepath;
     public function __construct($filepath)
     {
@@ -26,7 +27,7 @@ class File implements SourceInterface{
         $prev_point = null;
         $total_distance = 0;
         foreach ($points as $point) {
-            $track_point = new Point($point->latitude, $point->longitude, $point->time->getTimestamp());
+            $track_point = new Point($point->latitude, $point->longitude, isset($point->time) ? $point->time->getTimestamp() : null);
             $track_point->elevation = $point->elevation;
 
             $total_distance += !is_null($prev_point) ? round(GeoHelper::getRawDistance($point, $prev_point)) : 0;

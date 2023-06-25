@@ -32,7 +32,7 @@ class Osm extends TileMapSource {
          */
 
         $latitude_rad = deg2rad($bounds->minLat);
-        $zoom = floor(log(self::EARTH_EQUATORIAL_CIRCUMFERENCE*cos($latitude_rad) / $distanceForOneTile, 2));
+        $zoom = floor(log(self::EARTH_EQUATORIAL_CIRCUMFERENCE*cos($latitude_rad) / ($distanceForOneTile ?: 1), 2));
 
         return $zoom;
     }
