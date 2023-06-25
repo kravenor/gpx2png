@@ -1,5 +1,5 @@
 {
-    "name": "knyazevdev/gpx2png",
+    "name": "kravenor/gpx2png",
     "description": "Gpx and track to image on OSM and other tiles",
     "keywords": [
         "gpx2png",
@@ -7,12 +7,12 @@
         "gpx2image",
         "gpx2osm"
     ],
-    "homepage": "https://github.com/knyazevdev/gpx2png",
+    "homepage": "https://github.com/kravenor/gpx2png",
     "license": "MIT",
     "authors": [
         {
-            "name": ":Alexey Knyazev",
-            "email": "alexey.knyaz@gmail.com",
+            "name": ":Simone Baldelli",
+            "email": "baldelli.simone@gmail.com",
             "role": "Developer"
         }
     ],

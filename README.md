@@ -2,12 +2,14 @@
 
 Php class that helps draw track and points on OSM maps.
 
+This repository is a fork of [Gpx2Png](https://github.com/knyazevdev/gpx2png) by [Alexey Knyazev](https://github.com/knyazevdev). That seems to be abandoned.
+
 ## Install
 
 Via Composer
 
 ``` bash
-$ composer require knyazevdev/gpx2png
+$ composer require kravenor/gpx2png
 ```
 
 ## Basic usage
@@ -81,6 +83,7 @@ $res->output();
 
 ## Credits
 
+- [Simone Baldelli](https://github.com/kravenor)
 - [Alexey Knyazev](https://github.com/knyazevdev)
 
 ## License
